@@ -1,59 +1,68 @@
-# 🌍 Global Sales Analysis Dashboard  
+# 🌍 Global Sales Analysis
 
-### 🎯 Objective  
-Analyze and visualize global sales data to uncover insights about sales trends, product performance, and customer purchasing behavior.
-
----
-
-### 📊 Dataset Overview  
-The dataset contains **240 entries** and **9 columns**, including:  
-
-| Column | Description |
-|---------|-------------|
-| `Transaction ID` | Unique identifier for each transaction |
-| `Date` | Date of the transaction |
-| `Product Category` | Category of the product sold |
-| `Product Name` | Name of the product |
-| `Units Sold` | Number of units sold |
-| `Unit Price` | Price per unit |
-| `Total Revenue` | Total revenue generated |
-| `Region` | Region where the sale occurred |
-| `Payment Method` | Payment method used by the customer |
+A data visualization project exploring global sales performance across regions, products, and payment methods using **Python**, **Pandas**, **Matplotlib**, and **Seaborn**.
 
 ---
 
-### 🧹 Data Cleaning Steps  
-- Checked for missing or null values and handled them appropriately.  
-- Converted columns (like `Date`) to correct data types.  
-- Ensured all numerical values were consistent and within expected ranges.  
+## 📊 Overview
+
+This project analyzes a synthetic dataset containing sales data such as revenue, region, product category, and payment method.  
+The goal was to identify patterns and trends in sales across different dimensions.
 
 ---
 
-### 📈 Exploratory Data Analysis  
-The analysis focused on understanding **regional performance**, **product popularity**, and **sales patterns** across months.  
+## ⚙️ Technologies Used
 
-#### Key visualizations include:  
-1. **Sales distribution by Region**  
-2. **Most popular Payment Methods**  
-3. **Top revenue-generating Products**  
-4. **Monthly trends in Total Revenue**
-
----
-
-### 💡 Key Insights  
-1. **Credit Card** emerged as the most preferred payment method among customers.  
-2. A **noticeable drop in sales** occurred between **April and July**, possibly indicating seasonal demand variation.  
-3. The **Canon EOS R5 Camera** stood out as the **top-performing product**, generating the highest total revenue.  
+- **Python**
+- **Jupyter Notebook**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
 
 ---
 
-### 🛠️ Tools & Libraries Used  
-- **Python** 🐍  
-- **Pandas** – data cleaning and manipulation  
-- **Matplotlib** – basic visualizations  
-- **Seaborn** – advanced plotting and aesthetics  
-- **Jupyter Notebook** – for analysis and documentation  
+## 🧩 Steps Involved
+
+1. **Data Loading & Cleaning**  
+   - Imported and explored dataset using Pandas  
+   - Checked for missing values and ensured proper data types  
+
+2. **Exploratory Data Analysis (EDA)**  
+   - Visualized sales distribution across different regions  
+   - Analyzed product performance and payment methods  
+   - Tracked monthly sales trends  
+
+3. **Visualization**  
+   - Used Seaborn and Matplotlib for clear, insightful visualizations  
 
 ---
-### Author
-- Ashish Sanjiv
+
+## 🔍 Key Insights
+
+1. 💳 **Credit card** is the most common method of payment  
+2. 📉 A noticeable **sales drop between April and July** was observed  
+3. 📸 **Canon EOS R5 Camera** contributed the **highest total revenue**
+
+---
+
+## 📊 Visual Highlights
+
+**Sales by Region**
+![Sales by Region](image.png)
+
+**Top Products by Revenue**
+![Top Products by Revenue](image-1.png)
+
+**Payment Method Distribution**
+![Payment Method](image-2.png)
+
+
+---
+## 🔗 View the Notebook
+
+Since GitHub sometimes fails to render `.ipynb` files properly,  
+you can view the fully rendered version on **nbviewer** here:
+
+👉 [**View Full Notebook on nbviewer**](https://nbviewer.org/github/Ashprojecto/Global-Sales-Analysis/blob/main/Sales_analysis.ipynb)
+
+ 
